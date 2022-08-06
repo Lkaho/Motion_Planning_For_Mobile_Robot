@@ -197,4 +197,4 @@ void informedSampleOnce(Eigen::Vector3d &sample, const Eigen::Vector3d &target,
 
 ### 3.2 改进效果演示
 
-![informedRRT*](/home/kaho/sample_method/src/hw_picture_and_report/informedRRT*.png)
+![informedRRT*](https://github.com/Lkaho/Motion_Planning_For_Mobile_Robot/blob/main/samp_method/src/informedRRT*.png)
