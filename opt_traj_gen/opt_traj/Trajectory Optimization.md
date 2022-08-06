@@ -1,5 +1,5 @@
 ## Trajectory Optimization
-
+main function see opt_traj/src/click_gen.cpp
 ### 1 算法流程
 
 #### 1.1 入口函数：void targetCallBack(const geometry_msgs::PoseStamped::ConstPtr &msg)
@@ -76,7 +76,7 @@ void minimumJerkTrajGen(
     // coefficientMatrix is a matrix with 6*piece num rows and 3 columes
     // As for a polynomial c0+c1*t+c2*t^2+c3*t^3+c4*t^4+c5*t^5,
     // each 6*3 sub-block of coefficientMatrix is
-    // --              --
+    // --              --https://github.com/Lkaho/Motion_Planning_For_Mobile_Robot/blob/main/crtl_lattice/src/OBVP.png
     // | c0_x c0_y c0_z |
     // | c1_x c1_y c1_z |
     // | c2_x c2_y c2_z |
@@ -135,7 +135,7 @@ void minimumJerkTrajGen(
             continue;
         }else{
             Eigen::MatrixXd Di = Eigen::MatrixXd::Zero(6, 3);
-            Di.row(0) = intermediatePositions.transpose().row(i - 1);
+            Di.row(0) = intermediatePositions.transpose().row(i https://github.com/Lkaho/Motion_Planning_For_Mobile_Robot/blob/main/crtl_lattice/src/OBVP.png- 1);
             b.block(6 * i - 3, 0, 6, 3) = Di;
         }
         for(int j = 0; j < pieceNum; ++j){
