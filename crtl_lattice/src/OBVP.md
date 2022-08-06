@@ -149,4 +149,4 @@ The green line is the optimal trajectory.
 
 Red lines are invalid trajectory.
 
-![kinoHw4](/home/kaho/mpCourseHw/kinoHw/src/kinoHw4.png)
+![kinoHw4](https://github.com/Lkaho/Motion_Planning_For_Mobile_Robot/blob/main/crtl_lattice/src/OBVP.png)
