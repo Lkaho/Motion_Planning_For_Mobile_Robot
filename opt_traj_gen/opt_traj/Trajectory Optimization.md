@@ -163,4 +163,4 @@ void minimumJerkTrajGen(
 
 ### 2 运行结果
 
-![min_jerkpng](/home/kaho/mpCourseHw/opt_traj/src/lec5_hw/min_jerkpng.png)
+![min_jerkpng](https://github.com/Lkaho/Motion_Planning_For_Mobile_Robot/blob/main/opt_traj_gen/opt_traj/min_jerkpng.png)
