@@ -2,7 +2,7 @@
 
 ## 1. Simulation Result 
 
-![sim_result](/home/kaho/mpCourseHw/astar_ws/src/sim_result.png)
+![sim_result](https://github.com/Lkaho/Motion_Planning_For_Mobile_Robot/blob/main/Astar/src/sim_result.png)
 
 ## 2. Benchmark
 
