@@ -145,4 +145,4 @@ $q_x = [\bar x_1,\ ...,\bar x_N]$
 
 ## 2 、Result
 
-![out](/home/kaho/mpCourseHw/mpc_ws/src/out.gif)
+![out](https://github.com/Lkaho/Motion_Planning_For_Mobile_Robot/blob/main/MPC_path_tracking/src/out.gif)
