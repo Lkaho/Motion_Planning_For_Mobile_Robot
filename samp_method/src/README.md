@@ -150,7 +150,7 @@ void goalCallback(const geometry_msgs::PoseStamped::ConstPtr &goal_msg)
 
 ## 二、结果显示
 
-![rrt*](/home/kaho/sample_method/src/hw_picture_and_report/rrt*.png)
+![rrt*](https://github.com/Lkaho/Motion_Planning_For_Mobile_Robot/blob/main/samp_method/src/rrt*.png)
 
 ## 三、提升效果
 
