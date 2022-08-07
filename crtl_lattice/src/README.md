@@ -42,7 +42,7 @@ main function see grid_path_searcher/src/demo_node.cpp and hw_tool.cpp
 
 ### 2.1 calculate the close form of derivative of J
 
-用sympy计算J对T的导数的表达式，令其为0,乘以T^4后为4次多项式，得到T每一阶乘方系数的闭式表达，这里参考了助教的github对sympy库进行学习及运用
+用sympy计算J对T的导数的表达式，令其为0,乘以T^4后为4次多项式，得到T每一阶乘方系数的闭式表达
 
 ````python
 
